@@ -23,7 +23,7 @@ class Application(tk.Frame):
         # width : 幅の大きさ
         # height : 高さの大きさ
         # background : 背景色
-        self.canvas = tk.Canvas(width=500, height=500, background="white")
+        self.canvas = tk.Canvas(frame, width=500, height=500, background="white")
 
         # Frameを親要素とした場合に、canvas Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
