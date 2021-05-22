@@ -20,9 +20,9 @@ class Application(tk.Frame):
         frame.pack()
 
         # frame Widget(Frame)を親要素として、canvas Widgetを作成する。
-        # width : 幅の大きさ
-        # height : 高さの大きさ
-        # background : 背景色
+        # width : 幅の設定
+        # height : 高さの設定
+        # background : 背景色の設定
         self.canvas = tk.Canvas(frame, width=500, height=500, background="white")
 
         # frame Widget(Frame)を親要素とした場合に、canvas Widgetをどのように配置するのか?
