@@ -19,13 +19,13 @@ class Application(tk.Frame):
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         frame.pack()
 
-        # Frameを親要素として、canvas Widgetを作成する。
+        # frame Widget(Frame)を親要素として、canvas Widgetを作成する。
         # width : 幅の大きさ
         # height : 高さの大きさ
         # background : 背景色
         self.canvas = tk.Canvas(frame, width=500, height=500, background="white")
 
-        # Frameを親要素とした場合に、canvas Widgetをどのように配置するのか?
+        # frame Widget(Frame)を親要素とした場合に、canvas Widgetをどのように配置するのか?
         # packについて : https://kuroro.blog/python/UuvLfIBIEaw98BzBZ3FJ/
         self.canvas.pack()
 
