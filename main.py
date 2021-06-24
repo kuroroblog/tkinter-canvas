@@ -47,7 +47,7 @@ class Application(tk.Frame):
         # 3. 図形や画像を操作する。                   #
         ##########################################
         # testtestとtag付け(名前付け)された図形や画像に対して操作を行う。
-        # 開始index(文字位置)2から終わりindex(文字位置)4に該当する文字列を、選択状態にする。
+        # 開始index(文字位置)2から終わりindex(文字位置)4の間に当てはまる文字列を、選択状態にする。
         # select_from(tag名, 開始index(文字位置))
         canvas.select_from("testtest", 2)
         # select_to(tag名, 終わりindex(文字位置))
