@@ -18,7 +18,7 @@ class Application(tk.Frame):
         frame.pack()
 
         ##########################################
-        # 1. canvas Widgetを定義する。              #
+        # 1. canvas Widgetを作成する。              #
         ##########################################
         # frame Widget(Frame)を親要素として、canvas Widgetを作成する。
         # width : 幅の設定
