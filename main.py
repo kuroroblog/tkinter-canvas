@@ -34,12 +34,12 @@ class Application(tk.Frame):
         # create_text(x座標, y座標, option1, option2, ...)
         # 第一引数 : x座標
         # 第二引数 : y座標
-        # 第三引数以降 : option
+        # 第三引数以降(任意) : option
         # text : 文字列情報
         # fill : 文字列色
         # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # activefill : 文字列が選択される or 文字列の上にカーソルが移動する場合に、色を変更する設定
-        # disabledfill : canvas Widgetのstate optionやcreate_textのstate optionが'disabled'の場合に、色を変更する設定
+        # canvas Widgetのstate optionが'disabled' or create_textのstate optionが'disabled'の場合に、色を変更する設定
         # tag : 文字列をtesttestと'名前付け'を行う。
         canvas.create_text(250, 250, text="テストテスト", fill='black', activefill='red', disabledfill='blue', tag="testtest")
 
