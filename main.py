@@ -20,6 +20,7 @@ class Application(tk.Frame):
         ##########################################
         # 1. canvas Widgetを作成する。              #
         ##########################################
+        # 参考 : https://kuroro.blog/python/V63iINoXI8iwMeRMEJPK/
         # frame Widget(Frame)を親要素として、canvas Widgetを作成する。
         # width : 幅の設定
         # height : 高さの設定
@@ -30,6 +31,7 @@ class Application(tk.Frame):
         ##########################################
         # 2. canvas Widget内へ図形や画像を描画する。   #
         ##########################################
+        # 参考 : https://kuroro.blog/python/ANyM9WLpd0LSXRQAELOj/
         # canvas Widget内へ文字列を描画する。(x座標, y座標)を'文字列の中心'として描画する。
         # create_text(x座標, y座標, option1, option2, ...)
         # 第一引数 : x座標
@@ -46,6 +48,7 @@ class Application(tk.Frame):
         ##########################################
         # 3. 図形や画像を操作する。                   #
         ##########################################
+        # 参考 : https://kuroro.blog/python/Qj1Czf3BgZiw4Jwxftad/
         # testtestとtag付け(名前付け)された図形や画像に対して操作を行う。
         # 開始index(文字位置)2から終わりindex(文字位置)4の間に当てはまる文字列を、選択状態にする。
         # select_from(tag名, 開始index(文字位置))
