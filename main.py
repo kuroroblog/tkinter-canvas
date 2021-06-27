@@ -41,7 +41,7 @@ class Application(tk.Frame):
         # fill : 文字列色
         # 色について : https://kuroro.blog/python/YcZ6Yh4PswqUzaQXwnG2/
         # activefill : 文字列が選択される or 文字列の上にマウスが移動する場合に、色を変更する設定
-        # canvas Widgetのstate optionが'disabled' or create_textのstate optionが'disabled'の場合に、色を変更する設定
+        # disabledfill : canvas Widgetのstate optionが'disabled' or create_textのstate optionが'disabled'の場合に、色を変更する設定
         # tag : 文字列をtesttestと'名前付け'を行う。
         canvas.create_text(250, 250, text="テストテスト", fill='black', activefill='red', disabledfill='blue', tag="testtest")
 
